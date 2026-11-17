@@ -6,11 +6,7 @@ spring:
   application:
     name: ORDER-SERVICE
 
-  datasource:
-    url: jdbc:mysql://localhost:3306/order_db
-    username: root
-    password: Project@123
-    driver-class-name: com.mysql.cj.jdbc.Driver
+  
 
   jpa:
     hibernate:
